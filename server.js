@@ -7,8 +7,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const BOT_TOKEN = "8426138621:AAG3zsV9mxwPCg4m7AmFrLsQVGHqX6GXyc0";
-const CHAT_ID = "-1003002990540";
+const BOT_TOKEN = "8159357714:AAF6gwXTTqwyTTfSYaqzQqZvhI49BwdprAQ";
+const CHAT_ID = "-1003594948098";
 
 app.post("/view", async (req, res) => {
   const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress;
